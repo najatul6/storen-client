@@ -219,7 +219,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
           <div className="flex flex-col space-y-1">
             <label className="text-sm">Price ($)</label>
             <input
-              type="number"
+              type="text"
               name="price"
               value={formData.price}
               onChange={handleChange}
@@ -232,7 +232,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
           <div className="flex flex-col space-y-1">
             <label className="text-sm">Discount (%)</label>
             <input
-              type="number"
+              type="text"
               name="discount"
               value={formData.discount}
               onChange={handleChange}
@@ -244,7 +244,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
           <div className="flex flex-col space-y-1">
             <label className="text-sm">Stock</label>
             <input
-              type="number"
+              type="text"
               name="stock"
               value={formData.stock}
               onChange={handleChange}
