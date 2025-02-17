@@ -106,7 +106,7 @@ const ShopItem = ({ item }) => {
                     <ul className="text-sm text-gray-500 hidden md:block">
                       {product.description.map((desc, index) => (
                         <li key={index} className="list-disc ml-5">
-                          {desc}
+                          {desc.slice(0, 50)} ...
                         </li>
                       ))}
                     </ul>
