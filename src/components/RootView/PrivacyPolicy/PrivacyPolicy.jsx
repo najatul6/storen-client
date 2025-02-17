@@ -6,22 +6,22 @@ const PrivacyPolicy = () => {
     <Container>
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>Privacy Policy | NiN Supply</title>
+        <title>Privacy Policy | StoreN</title>
         <meta
           name="description"
-          content="Read the privacy policy of NiN Supply to understand how we collect, use, and protect your data."
+          content="Read the privacy policy of StoreN to understand how we collect, use, and protect your data."
         />
         <meta
           name="keywords"
-          content="privacy policy, data protection, user privacy, NiN Supply, security"
+          content="privacy policy, data protection, user privacy, StoreN, security"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for better social media previews */}
-        <meta property="og:title" content="Privacy Policy | NiN Supply" />
+        <meta property="og:title" content="Privacy Policy | StoreN" />
         <meta
           property="og:description"
-          content="Understand how NiN Supply handles and protects your personal data."
+          content="Understand how StoreN handles and protects your personal data."
         />
         <meta
           property="og:image"
@@ -35,10 +35,10 @@ const PrivacyPolicy = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Privacy Policy | NiN Supply" />
+        <meta name="twitter:title" content="Privacy Policy | StoreN" />
         <meta
           name="twitter:description"
-          content="Understand how NiN Supply handles and protects your personal data."
+          content="Understand how StoreN handles and protects your personal data."
         />
         <meta
           name="twitter:image"
@@ -132,7 +132,7 @@ const PrivacyPolicy = () => {
               <li>
                 <strong>Company</strong> (referred to as either &quot;the
                 Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
-                in this Agreement) refers to NiN Supply.
+                in this Agreement) refers to StoreN.
               </li>
               <li>
                 <strong>Cookies</strong> are small files placed on Your
@@ -175,7 +175,7 @@ const PrivacyPolicy = () => {
                 duration of a page visit).
               </li>
               <li>
-                <strong>Website</strong> refers to NiN Supply, accessible from{" "}
+                <strong>Website</strong> refers to StoreN, accessible from{" "}
                 <a
                   href="https://nin-supply.vercel.app/"
                   rel="external nofollow noopener"
