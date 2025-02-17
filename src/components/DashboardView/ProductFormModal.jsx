@@ -117,7 +117,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
   };
 
   if (!isOpen) return null;
-  if (loading) return  <Loading/>;
+  if (loading) return <Loading />;
 
   return (
     <div className="fixed inset-0 z-[500] bg-black bg-opacity-50 flex justify-center items-center overflow-hidden  min-h-screen">
@@ -161,6 +161,22 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
               className="w-full p-2 border rounded bg-gray-800 text-white"
               required
             />
+            <select
+              name="category"
+              value={formData.category}
+              onChange={handleChange}
+              className="w-full p-2 border rounded bg-gray-800 text-white"
+              required
+            >
+              <option value="" disabled>
+                Select a Category
+              </option>
+              {formData.category.map((cat, index) => (
+                <option key={index} value={cat}>
+                  {cat}
+                </option>
+              ))}
+            </select>
           </div>
 
           {/* Dynamic Description Fields */}
