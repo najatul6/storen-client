@@ -1,7 +1,7 @@
 import { Link, NavLink, useLocation } from "react-router-dom";
 import { RiMenuAddLine } from "react-icons/ri";
 import { CgMenuMotion } from "react-icons/cg";
-import brandImg from "../../../assets/ninSupply.svg";
+import brandImg from "../../../assets/brandLogo.png";
 import { useState } from "react";
 import useAuth from "@/hooks/useAuth";
 import { Avatar } from "@/components/ui/avatar";
@@ -148,7 +148,7 @@ const Header = () => {
             }
           </div>
         </div>
-        <Link to="/" className="logo">
+        <Link to="/" className="logo py-2">
           <div className="flex justify-center items-center w-[150px] h-[30px]">
             <img src={brandImg} alt="" className="w-full h-fit object-center" />
           </div>
