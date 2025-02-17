@@ -19,7 +19,7 @@ import Loading from "@/components/common/Loading";
 
 const ProductsControl = () => {
   const [products, isLoading, refetch] = useProduct();
-  
+
   const axiosSecure = useAxiosSecure();
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
