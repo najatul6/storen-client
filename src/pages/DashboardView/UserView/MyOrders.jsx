@@ -22,22 +22,22 @@ const MyOrders = () => {
     <div className="p-6 w-full">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>My Orders | NiN Supply</title>
+        <title>My Orders | StoreN</title>
         <meta
           name="description"
-          content="View all your orders on NiN Supply, including order details, status, and payment information."
+          content="View all your orders on StoreN, including order details, status, and payment information."
         />
         <meta
           name="keywords"
-          content="orders, order history, order status, payment status, NiN Supply"
+          content="orders, order history, order status, payment status, StoreN"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
-        <meta property="og:title" content="My Orders | NiN Supply" />
+        <meta property="og:title" content="My Orders | StoreN" />
         <meta
           property="og:description"
-          content="View all your orders on NiN Supply, including order details, status, and payment information."
+          content="View all your orders on StoreN, including order details, status, and payment information."
         />
         <meta
           property="og:image"
@@ -51,10 +51,10 @@ const MyOrders = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="My Orders | NiN Supply" />
+        <meta name="twitter:title" content="My Orders | StoreN" />
         <meta
           name="twitter:description"
-          content="View all your orders on NiN Supply, including order details, status, and payment information."
+          content="View all your orders on StoreN, including order details, status, and payment information."
         />
         <meta
           name="twitter:image"

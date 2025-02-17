@@ -116,22 +116,22 @@ const ProcessingOrders = () => {
     <div className="p-6 w-full">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>Processing Orders | NiN Supply</title>
+        <title>Processing Orders | StoreN</title>
         <meta
           name="description"
-          content="Track and manage processing orders on NiN Supply to ensure timely fulfillment."
+          content="Track and manage processing orders on StoreN to ensure timely fulfillment."
         />
         <meta
           name="keywords"
-          content="processing orders, order management, order tracking, ecommerce, NiN Supply, pending fulfillment"
+          content="processing orders, order management, order tracking, ecommerce, StoreN, pending fulfillment"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
-        <meta property="og:title" content="Processing Orders | NiN Supply" />
+        <meta property="og:title" content="Processing Orders | StoreN" />
         <meta
           property="og:description"
-          content="Track and manage processing orders on NiN Supply to ensure timely fulfillment."
+          content="Track and manage processing orders on StoreN to ensure timely fulfillment."
         />
         <meta
           property="og:image"
@@ -145,10 +145,10 @@ const ProcessingOrders = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Processing Orders | NiN Supply" />
+        <meta name="twitter:title" content="Processing Orders | StoreN" />
         <meta
           name="twitter:description"
-          content="Track and manage processing orders on NiN Supply to ensure timely fulfillment."
+          content="Track and manage processing orders on StoreN to ensure timely fulfillment."
         />
         <meta
           name="twitter:image"

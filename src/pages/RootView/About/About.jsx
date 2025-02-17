@@ -5,22 +5,22 @@ const About = () => {
     <div className="w-full min-h-screen flex justify-center items-center text-4xl text-center">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>About | NiN Supply</title>
+        <title>About | StoreN</title>
         <meta
           name="description"
-          content="Learn more about NiN Supply, our mission, and our team."
+          content="Learn more about StoreN, our mission, and our team."
         />
         <meta
           name="keywords"
-          content="about, mission, team, NiN Supply, company information"
+          content="about, mission, team, StoreN, company information"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
-        <meta property="og:title" content="About | NiN Supply" />
+        <meta property="og:title" content="About | StoreN" />
         <meta
           property="og:description"
-          content="Learn more about NiN Supply, our mission, and our team."
+          content="Learn more about StoreN, our mission, and our team."
         />
         <meta
           property="og:image"
@@ -31,10 +31,10 @@ const About = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="About | NiN Supply" />
+        <meta name="twitter:title" content="About | StoreN" />
         <meta
           name="twitter:description"
-          content="Learn more about NiN Supply, our mission, and our team."
+          content="Learn more about StoreN, our mission, and our team."
         />
         <meta
           name="twitter:image"

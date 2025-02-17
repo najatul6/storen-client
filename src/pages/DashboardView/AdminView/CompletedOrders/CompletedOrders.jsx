@@ -112,22 +112,22 @@ const CompletedOrders = () => {
     <div className="p-6 w-full">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>Completed Orders | NiN Supply</title>
+        <title>Completed Orders | StoreN</title>
         <meta
           name="description"
-          content="View and manage completed orders on NiN Supply with detailed order history and tracking."
+          content="View and manage completed orders on StoreN with detailed order history and tracking."
         />
         <meta
           name="keywords"
-          content="completed orders, order history, order tracking, NiN Supply, ecommerce, fulfilled orders"
+          content="completed orders, order history, order tracking, StoreN, ecommerce, fulfilled orders"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
-        <meta property="og:title" content="Completed Orders | NiN Supply" />
+        <meta property="og:title" content="Completed Orders | StoreN" />
         <meta
           property="og:description"
-          content="View and manage completed orders on NiN Supply with detailed order history and tracking."
+          content="View and manage completed orders on StoreN with detailed order history and tracking."
         />
         <meta
           property="og:image"
@@ -141,10 +141,10 @@ const CompletedOrders = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Completed Orders | NiN Supply" />
+        <meta name="twitter:title" content="Completed Orders | StoreN" />
         <meta
           name="twitter:description"
-          content="View and manage completed orders on NiN Supply with detailed order history and tracking."
+          content="View and manage completed orders on StoreN with detailed order history and tracking."
         />
         <meta
           name="twitter:image"

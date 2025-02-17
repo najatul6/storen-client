@@ -113,25 +113,25 @@ const NewOrders = () => {
     <div className="p-6 w-full">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>Orders Pending Management | NiN Supply</title>
+        <title>Orders Pending Management | StoreN</title>
         <meta
           name="description"
-          content="Efficiently manage and process pending orders on NiN Supply to ensure smooth transactions."
+          content="Efficiently manage and process pending orders on StoreN to ensure smooth transactions."
         />
         <meta
           name="keywords"
-          content="orders, pending orders, order management, NiN Supply, ecommerce, order tracking"
+          content="orders, pending orders, order management, StoreN, ecommerce, order tracking"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
         <meta
           property="og:title"
-          content="Orders Pending Management | NiN Supply"
+          content="Orders Pending Management | StoreN"
         />
         <meta
           property="og:description"
-          content="Efficiently manage and process pending orders on NiN Supply to ensure smooth transactions."
+          content="Efficiently manage and process pending orders on StoreN to ensure smooth transactions."
         />
         <meta
           property="og:image"
@@ -147,11 +147,11 @@ const NewOrders = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Orders Pending Management | NiN Supply"
+          content="Orders Pending Management | StoreN"
         />
         <meta
           name="twitter:description"
-          content="Efficiently manage and process pending orders on NiN Supply to ensure smooth transactions."
+          content="Efficiently manage and process pending orders on StoreN to ensure smooth transactions."
         />
         <meta
           name="twitter:image"

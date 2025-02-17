@@ -69,22 +69,22 @@ const UserControls = () => {
     <div className="p-6 w-full">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>User Controls | NiN Supply</title>
+        <title>User Controls | StoreN</title>
         <meta
           name="description"
-          content="Manage user roles, permissions, and account settings on NiN Supply."
+          content="Manage user roles, permissions, and account settings on StoreN."
         />
         <meta
           name="keywords"
-          content="user controls, user management, account settings, roles, permissions, NiN Supply"
+          content="user controls, user management, account settings, roles, permissions, StoreN"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
-        <meta property="og:title" content="User Controls | NiN Supply" />
+        <meta property="og:title" content="User Controls | StoreN" />
         <meta
           property="og:description"
-          content="Manage user roles, permissions, and account settings on NiN Supply."
+          content="Manage user roles, permissions, and account settings on StoreN."
         />
         <meta
           property="og:image"
@@ -98,10 +98,10 @@ const UserControls = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="User Controls | NiN Supply" />
+        <meta name="twitter:title" content="User Controls | StoreN" />
         <meta
           name="twitter:description"
-          content="Manage user roles, permissions, and account settings on NiN Supply."
+          content="Manage user roles, permissions, and account settings on StoreN."
         />
         <meta
           name="twitter:image"

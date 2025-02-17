@@ -67,22 +67,22 @@ const CategoriesControl = () => {
     <div className="p-6 text-white rounded-lg shadow-lg">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>Categories Control | NiN Supply</title>
+        <title>Categories Control | StoreN</title>
         <meta
           name="description"
-          content="Manage product categories efficiently on NiN Supply. Add, edit, and delete categories with ease."
+          content="Manage product categories efficiently on StoreN. Add, edit, and delete categories with ease."
         />
         <meta
           name="keywords"
-          content="categories, category management, product categories, ecommerce, NiN Supply, admin panel"
+          content="categories, category management, product categories, ecommerce, StoreN, admin panel"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
-        <meta property="og:title" content="Categories Control | NiN Supply" />
+        <meta property="og:title" content="Categories Control | StoreN" />
         <meta
           property="og:description"
-          content="Manage product categories efficiently on NiN Supply. Add, edit, and delete categories with ease."
+          content="Manage product categories efficiently on StoreN. Add, edit, and delete categories with ease."
         />
         <meta
           property="og:image"
@@ -96,10 +96,10 @@ const CategoriesControl = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Categories Control | NiN Supply" />
+        <meta name="twitter:title" content="Categories Control | StoreN" />
         <meta
           name="twitter:description"
-          content="Manage product categories efficiently on NiN Supply. Add, edit, and delete categories with ease."
+          content="Manage product categories efficiently on StoreN. Add, edit, and delete categories with ease."
         />
         <meta
           name="twitter:image"

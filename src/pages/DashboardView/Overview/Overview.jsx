@@ -9,22 +9,22 @@ const Overview = () => {
     <div className="p-6 w-full">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>Dashboard Overview | NiN Supply</title>
+        <title>Dashboard Overview | StoreN</title>
         <meta
           name="description"
-          content="Get a complete overview of your NiN Supply dashboard, including sales, orders, and analytics."
+          content="Get a complete overview of your StoreN dashboard, including sales, orders, and analytics."
         />
         <meta
           name="keywords"
-          content="dashboard, NiN Supply, admin panel, sales overview, analytics, business insights"
+          content="dashboard, StoreN, admin panel, sales overview, analytics, business insights"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media previews */}
-        <meta property="og:title" content="Dashboard Overview | NiN Supply" />
+        <meta property="og:title" content="Dashboard Overview | StoreN" />
         <meta
           property="og:description"
-          content="Monitor sales, orders, and key business metrics from your NiN Supply dashboard."
+          content="Monitor sales, orders, and key business metrics from your StoreN dashboard."
         />
         <meta
           property="og:image"
@@ -38,10 +38,10 @@ const Overview = () => {
 
         {/* Twitter Card for better previews on Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Dashboard Overview | NiN Supply" />
+        <meta name="twitter:title" content="Dashboard Overview | StoreN" />
         <meta
           name="twitter:description"
-          content="Monitor sales, orders, and key business metrics from your NiN Supply dashboard."
+          content="Monitor sales, orders, and key business metrics from your StoreN dashboard."
         />
         <meta
           name="twitter:image"
