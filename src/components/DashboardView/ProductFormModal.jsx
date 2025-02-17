@@ -10,6 +10,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
   const axiosSecure = useAxiosSecure();
   const [loading, setLoading] = useState(false);
   const [categories]=useCategory();
+  const [uploading, setUploading] = useState(false);
   const [formData, setFormData] = useState({
     id: "",
     productName: "",
@@ -85,7 +86,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
   const handleImageChange = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
-
+    setUploading(true);
     setImagePreview(URL.createObjectURL(file));
 
     const uploadResponse = await imageUpload(file);
@@ -288,7 +289,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
             >
               Cancel
             </button>
-            <button type="submit" className="bg-blue-600 px-4 py-2 rounded">
+            <button disabled={uploading} type="submit" className="bg-blue-600 px-4 py-2 rounded">
               {product ? "Update" : "Add"}
             </button>
           </div>
