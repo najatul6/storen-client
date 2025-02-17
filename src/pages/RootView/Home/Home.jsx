@@ -1,6 +1,5 @@
 import CategoryZone from "@/components/RootView/Home/CategoryZone/CategoryZone";
 import PopularProducts from "@/components/RootView/Home/PopularProducts/PopularProducts";
-import Wholesale from "@/components/RootView/Home/WholeSale/Wholesale";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -59,7 +58,6 @@ const Home = () => {
 
       <PopularProducts />
       <CategoryZone />
-      <Wholesale />
     </div>
   );
 };
