@@ -16,7 +16,7 @@ StoreN is an e-commerce platform for browsing and purchasing various products on
 ## 🛠 Tech Stack
 - **Frontend:** React, Tailwind CSS
 - **Backend:** Node.js, Express.js, MongoDB
-- **Authentication:** JWT
+- **Authentication:** JWT,Firebase
 - **Hosting:** Vercel (Frontend & Backend)
 
 
