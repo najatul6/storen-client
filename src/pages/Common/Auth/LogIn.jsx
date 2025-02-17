@@ -75,22 +75,22 @@ const LogIn = () => {
     <div className="bg-white rounded-xl sm:px-6 px-4 py-8 max-w-md w-full h-max shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] max-lg:mx-auto">
       {/* Helmet for title and meta tags Start here */}
       <Helmet>
-        <title>NiN Supply | Log in</title>
+        <title>StoreN | Log in</title>
         <meta
           name="description"
-          content="Log in to NiN Supply to access exclusive deals and manage your account securely."
+          content="Log in to StoreN to access exclusive deals and manage your account securely."
         />
         <meta
           name="keywords"
-          content="NiN Supply, login, ecommerce, secure access, online store"
+          content="StoreN, login, ecommerce, secure access, online store"
         />
-        <meta name="author" content="NiN Supply" />
+        <meta name="author" content="StoreN" />
 
         {/* Open Graph for social media */}
-        <meta property="og:title" content="NiN Supply | Log in" />
+        <meta property="og:title" content="StoreN | Log in" />
         <meta
           property="og:description"
-          content="Log in to NiN Supply to access exclusive deals and manage your account securely."
+          content="Log in to StoreN to access exclusive deals and manage your account securely."
         />
         <meta
           property="og:image"
