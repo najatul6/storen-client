@@ -16,9 +16,11 @@ import { AiOutlinePlus } from "react-icons/ai";
 import ProductFormModal from "@/components/DashboardView/ProductFormModal";
 import { Edit, Trash2 } from "lucide-react";
 import Loading from "@/components/common/Loading";
+import useCategory from "@/hooks/useCategory";
 
 const ProductsControl = () => {
   const [products, isLoading, refetch] = useProduct();
+  
   const axiosSecure = useAxiosSecure();
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);

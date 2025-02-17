@@ -4,10 +4,12 @@ import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import Loading from "../common/Loading";
+import useCategory from "@/hooks/useCategory";
 
 const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
   const axiosSecure = useAxiosSecure();
   const [loading, setLoading] = useState(false);
+  const [categories]=useCategory();
   const [formData, setFormData] = useState({
     id: "",
     productName: "",
@@ -152,7 +154,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
 
           <div className="flex flex-col space-y-1">
             <label className="text-sm">Category</label>
-            <input
+            {/* <input
               type="text"
               name="category"
               value={formData.category}
@@ -160,23 +162,22 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
               placeholder="Category"
               className="w-full p-2 border rounded bg-gray-800 text-white"
               required
-            />
-            <select
-              name="category"
-              value={formData.category}
-              onChange={handleChange}
-              className="w-full p-2 border rounded bg-gray-800 text-white"
-              required
-            >
-              <option value="" disabled>
-                Select a Category
-              </option>
-              {formData.category.map((cat, index) => (
-                <option key={index} value={cat}>
-                  {cat}
-                </option>
-              ))}
-            </select>
+            /> */}
+             <select
+  name="category"
+  value={formData.category}
+  onChange={handleChange}
+  className="w-full p-2 border rounded bg-gray-800 text-white"
+  required
+>
+  <option value="" disabled>Select a Category</option>
+  {categories.map((cat) => (
+    <option key={cat._id} value={cat.category}>
+      {cat.category}
+    </option>
+  ))}
+</select>
+
           </div>
 
           {/* Dynamic Description Fields */}

@@ -37,7 +37,7 @@ const CategoryZone = () => {
                     alt={item?.packageName}
                     className="w-full h-full mx-auto object-cover group-hover:scale-125 transition duration-500"
                   />
-                  <div className="w-full h-full bg-background bg-blend-screen absolute inset-0 flex gap-3 flex-col justify-center items-start px-6 bg-opacity-85 rounded-md">
+                  <div className="w-full h-full bg-background backdrop-opacity-10 absolute inset-0 flex gap-3 flex-col justify-center items-start px-6 bg-opacity-85 rounded-md">
                     <h2 className="text-2xl uppercase font-bold text-white">
                       {item?.packageName}
                     </h2>
