@@ -85,7 +85,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
   const handleImageChange = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
-   
+
     setImagePreview(URL.createObjectURL(file));
 
     const uploadResponse = await imageUpload(file);
