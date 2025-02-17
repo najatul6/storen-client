@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import headerLogo from "../../../assets/ninSupply.svg";
+import headerLogo from "../../../assets/brandLogo.png";
 import useAuth from "@/hooks/useAuth";
 
 const DashboardHeader = () => {
