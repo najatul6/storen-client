@@ -9,7 +9,7 @@ import useCategory from "@/hooks/useCategory";
 const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
   const axiosSecure = useAxiosSecure();
   const [loading, setLoading] = useState(false);
-  const [categories]=useCategory();
+  const [categories] = useCategory();
   const [uploading, setUploading] = useState(false);
   const [formData, setFormData] = useState({
     id: "",
@@ -164,21 +164,22 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
               className="w-full p-2 border rounded bg-gray-800 text-white"
               required
             /> */}
-             <select
-  name="category"
-  value={formData.category}
-  onChange={handleChange}
-  className="w-full p-2 border rounded bg-gray-800 text-white"
-  required
->
-  <option value="" disabled>Select a Category</option>
-  {categories.map((cat) => (
-    <option key={cat._id} value={cat.category}>
-      {cat.category}
-    </option>
-  ))}
-</select>
-
+            <select
+              name="category"
+              value={formData.category}
+              onChange={handleChange}
+              className="w-full p-2 border rounded bg-gray-800 text-white"
+              required
+            >
+              <option value="" disabled>
+                Select a Category
+              </option>
+              {categories.map((cat) => (
+                <option key={cat._id} value={cat.category}>
+                  {cat.category}
+                </option>
+              ))}
+            </select>
           </div>
 
           {/* Dynamic Description Fields */}
@@ -289,7 +290,7 @@ const ProductFormModal = ({ isOpen, onClose, product, refetch }) => {
             >
               Cancel
             </button>
-            <button disabled={uploading} type="submit" className="bg-blue-600 px-4 py-2 rounded">
+            <button type="submit" className="bg-blue-600 px-4 py-2 rounded">
               {product ? "Update" : "Add"}
             </button>
           </div>
