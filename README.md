@@ -3,7 +3,7 @@
 StoreN is an e-commerce platform for browsing and purchasing various products online. This project is built using modern web technologies to provide a seamless shopping experience.
 
 ## 🚀 Live Demo
-[Storen Live](https://storen-server.vercel.app)
+[Live Demo](https://storen-client.vercel.app/)
 
 
 ##  📌 Features
