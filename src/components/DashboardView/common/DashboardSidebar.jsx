@@ -27,7 +27,7 @@ const DashboardSidebar = ({ sidebarOpen, setSidebarOpen }) => {
     });
   };
 
-  // Navigation items for users
+  // Navigation items for users 
   const userNav = [
     {
       label: "Overview",
@@ -41,7 +41,7 @@ const DashboardSidebar = ({ sidebarOpen, setSidebarOpen }) => {
     },
   ];
 
-  // Navigation items for admins
+  // Navigation items for admins 
   const adminNav = [
     {
       label: "Overview",
