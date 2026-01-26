@@ -128,9 +128,9 @@ const Footer = () => {
         </div>
       </Container>
       <p className="bg-background mt-5 py-2 text-center">
-        &copy; All Right Reserved by -{" "}
-        <Link to="https://nin-supply.vercel.app/" target="_blank" className="text-baseColor hover:underline">
-        StoreN
+        &copy; All Right Reserved | Developed By -{" "}
+        <Link to="https://najatul-islam.vercel.app/" target="_blank" className="text-baseColor hover:underline">
+        Najatul islam
         </Link>
       </p>
     </footer>
