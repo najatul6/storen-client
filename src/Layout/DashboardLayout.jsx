@@ -22,7 +22,6 @@ Hello senders
 
         <section className="main-content w-full overflow-auto p-6 ">
           <Outlet />
-          
         </section>
       </div>
     </div>
